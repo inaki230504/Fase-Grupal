@@ -1,0 +1,5 @@
+#En este articulo se especificara un comando que sirve para ejecutar una tarea.
+#El formato del comando es el siguiente Schtasks /RUN /TN (ruta del la alerta o monitorización)
+#Ejemplo:
+-Schtasks /RUN /TN \Microsoft\Windows\PLA\alerta-cpu
+#El valor /RUN es para poner en marcha una tarea y el /TN es para especificar la ruta de la tarea.
